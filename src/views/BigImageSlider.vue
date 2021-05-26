@@ -1,7 +1,7 @@
 <template>
   <section class="w-full flex flex-col items-center mb-10">
      <!-- Big Slider Image -->
-    <div class="h-[75vh] w-full bg-blue-300 overflow-hidden">
+    <div class="h-[75vh] w-full bg-brown-200 overflow-hidden">
       <img src="../assets/images/pubg.jpg" class="object-cover w-full" alt="">
     </div>
     <!-- pengumunan -->
