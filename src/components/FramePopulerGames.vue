@@ -8,7 +8,7 @@
         <h1 class="text-4xl font-bold text-brown-200">E-SPORTS</h1>
         <p class="py-5 text-sm font-medium">Menyediakan semua pertandingan yang sangat besar, dan pemain dapat menantikan lebih dari seratus game dengan puluhan ribu rintangan setiap bulan! Dengan visual antarmuka yang menakjubkan dan pengalaman pengguna yang efisien, ini memungkinkan Anda untuk memulai dengan mudah, memahami dalam waktu yang singkat, dan bertaruh atau bermain dengan mudah.</p>
         <div class="text-center inline-block">
-          <button class="frame-button w-28 h-28 pb-2">
+          <button class="frame-button w-28 h-28 pb-2 focus:outline-none hover:opacity-90">
             <div class="w-7 h-7 bg-gradient-to-r from-brown-200 to-yellow-100 inline-block rounded"></div>
           </button>
           <p class="-mt-2">IMONE</p>  

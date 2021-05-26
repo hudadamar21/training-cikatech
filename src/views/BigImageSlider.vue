@@ -11,23 +11,10 @@
 
 <script>
 import Pengumuman from "../components/Pengumuman.vue";
+
 export default {
   components: {
     Pengumuman
   }
 }
 </script>
-
-<style lang="postcss">
-  .pengumuman:after {
-    content: '';
-    @apply absolute top-0 -right-5 bg-white w-7 h-full filter blur
-  }
-  .pengumuman::before {
-    content: '';
-    @apply absolute top-0 -left-5 bg-white w-7 h-full filter blur
-  }
-  .shadow-pengumuman {
-    box-shadow: 0 2px 5px 1px rgba(201, 157, 108, 0.3);
-  }
-</style>

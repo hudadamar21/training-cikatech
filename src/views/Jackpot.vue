@@ -10,7 +10,7 @@
             class="card-price"
           >{{ num }}
           </span>
-          <span v-else>{{ num }}</span>
+          <span v-else >{{ num }}</span>
         </template>
       </div>
     </div>
@@ -21,9 +21,7 @@
 import { ref, computed } from 'vue'
 export default {
   setup(){
-
     const jackpotCounter = ref('40,421,048,465.05')
-
     const jackpotCounterArray = computed(() => jackpotCounter.value.split(''))
 
     return { jackpotCounterArray }
